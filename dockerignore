@@ -1,0 +1,20 @@
+# Version control
+.git
+.gitignore
+
+# CI/CD files (not needed inside the image)
+Jenkinsfile
+k8s/
+
+# Docs
+README.md
+*.md
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local logs
+*.log
